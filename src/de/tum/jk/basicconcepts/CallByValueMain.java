@@ -26,8 +26,8 @@ public class CallByValueMain {
 
 	}
 
-	private static void changeValueTwo(SubClass b) {
-		b.value = 4;
+	private static void changeValueTwo(SubClass subClass) {
+		subClass.value = 4;
 
 	}
 }

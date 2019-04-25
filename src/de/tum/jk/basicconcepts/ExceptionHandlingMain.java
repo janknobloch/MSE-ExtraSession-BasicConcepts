@@ -14,7 +14,9 @@ public class ExceptionHandlingMain {
 		// System.out.println("Array at position 5: "+numbers[5]);
 
 		try {
+
 			System.out.println(numbers[5]);
+
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("Cant access element outside of array - taking last item as workaround");
 			System.out.println("Original error message: " + e);
